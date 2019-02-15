@@ -1,13 +1,10 @@
 # Project 1
 
-###Problem Set: {4.15, 4.16, 4.19, 4.30, 5.23}
+### Problem Set: {4.15, 4.16, 4.19, 4.30, 5.23}
 
-#####Due Date: Wednesday, February 27, 2019 11:59 PM
+#### Due Date: Wednesday, February 27, 2019 11:59 PM
 
-**4.15** *(Employee Leave Calculator)* A large company allocates its employees leave based on the number of hours worked in a week. 
-
-Each employee gets two hours of leave for each week worked plus 10% of hours worked. Develop a C++ program that uses a while statement to input each employee’s hours worked for last week and calculates and displays the number of hours of leave accrued by that employee. Process each employee’s figures at a time. 
-
+**4.15** *(Employee Leave Calculator)* A large company allocates its employees leave based on the number of hours worked in a week. Each employee gets two hours of leave for each week worked plus 10% of hours worked. Develop a C++ program that uses a while statement to input each employee’s hours worked for last week and calculates and displays the number of hours of leave accrued by that employee. Process each employee’s figures at a time. 
 ```
 Enter number of hours worked (-1 to end): 10.5
 Accrued leave: 3.05 hours
@@ -24,7 +21,6 @@ Enter number of hours worked (-1 to end): -1
 
 
 **4.16** *(Fundraising initiative Calculator)* A group of school children have completed a 12-hour endurance challenge fundraiser. For each lap they complete, they are sponsored an amount of mon- ey by generous supporters. For every additional lap over 40 that they complete, they are sponsored an additional 50% of the normal lap rate. For example, a student who runs 42 laps, and who has a spon- sorship of USD 10.50 per lap, will contribute USD 451.50 towards the fundraising initiative. Develop a C++ program that uses a while statement to input each student's number of completed laps and spon- sorship rate and then calculates and displays that student's contribution towards the fundraising initiative. Your program should also indicate the total amount collected from the fundraising initiative. 
-
 ```
 Enter laps completed(-1 to end): 10
 Enter sponsorship rate: 12.50
@@ -67,8 +63,7 @@ What happens when you run this program?
 **5.23** *(Egg-timer Program)* Write an application that prints the following egg-timer shape. You
 may use output statements that print a single asterisk (*), a single hash (#) a single space or a single
 newline character. Maximize your use of iteration (with nested for statements), and minimize the
-number of output statements.
-
+number of output statements.
 ```
 #########
 #*******#
@@ -80,4 +75,3 @@ number of output statements.
 #*******#
 #########
 ```
-
