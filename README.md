@@ -1,2 +1,2 @@
-# Assignments-CSC212
-CSC 212 Assignments
+# CSC212
+
