@@ -3,9 +3,6 @@
 //  assignment 1
 //  4.16
 //
-//  Created by Georgio Nicolas on 2/27/19.
-//  Copyright © 2019 Georgio Nicolas. All rights reserved.
-//
 
 #include <iostream>
 
