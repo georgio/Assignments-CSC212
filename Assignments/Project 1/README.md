@@ -1,11 +1,10 @@
 # Project 1
 
-###Problem Set: {4.15, 4.16, 4.19, 4.30, 5.23}
+### Problem Set: {4.15, 4.16, 4.19, 4.30, 5.23}
 
-#####Due Date: Wednesday, February 27, 2019 11:59 PM
+##### Due Date: Wednesday, February 27, 2019 11:59 PM
 
 **4.15** *(Employee Leave Calculator)* A large company allocates its employees leave based on the number of hours worked in a week. 
-
 Each employee gets two hours of leave for each week worked plus 10% of hours worked. Develop a C++ program that uses a while statement to input each employee’s hours worked for last week and calculates and displays the number of hours of leave accrued by that employee. Process each employee’s figures at a time. 
 
 ```
@@ -20,6 +19,7 @@ Accrued leave: 5.00 hours
 
 Enter number of hours worked (-1 to end): -1
 ```
+
 
 
 
@@ -44,15 +44,16 @@ Total funds raised: 1386.50
 
 
 
+
 **4.17(Not required)** *(Find the Largest)* The process of finding the largest number (i.e., the maximum of a group of numbers) is used frequently in computer applications. For example, a program that determines the winner of a sales contest inputs the number of units sold by each salesperson. The salesperson who sells the most units wins the contest. Write a C++ program that uses a while statement to de- termine and print the largest of 10 numbers input by the user. Your program should use three variables, as follows: 
 a) counter—A counter to count to 10 (i.e., to keep track of how many numbers have been input and to determine when all 10 numbers have been processed). 
 b) number—The current number input to the program.
 c) largest—The largest number found so far.
 
 
-
 **4.19** *(Find the Two Largest Numbers)* Using an approach similar to that in Exercise 4.17, find
 the *two* largest values among the 10 numbers. [*Note:* You must input each number only once.]
+
 
 
 
@@ -64,10 +65,11 @@ What happens when you run this program?
 
 
 
+
 **5.23** *(Egg-timer Program)* Write an application that prints the following egg-timer shape. You
 may use output statements that print a single asterisk (*), a single hash (#) a single space or a single
 newline character. Maximize your use of iteration (with nested for statements), and minimize the
-number of output statements.
+number of output statements.
 
 ```
 #########
@@ -80,4 +82,3 @@ number of output statements.
 #*******#
 #########
 ```
-
