@@ -4,17 +4,48 @@
 //  5.23
 //
 
-
 #include <iostream>
+using namespace std;
 
-int main() {
-    while (true) {
-        double hours = 0;
-        std::cout << "Enter number of hours worked (-1 to end): ";
-        std::cin >> hours;
-        if (hours == -1) {
-            return 0;
+int main()
+{
+
+    int a, b;
+
+    for (int i = 0; i < 9; i++)
+    {
+        std::cout << "#";
+        if (i != 0 && i != 8)
+        {
+            for (int j = 0; j < 7; j++)
+            {
+                a = i;
+                b = 7 - i - 1;
+                if (a <= b)
+                {
+                    if (j >= a && j <= b)
+                        std::cout << "*";
+                    else
+                        std::cout << " ";
+                }
+                else
+                {
+                    if (j >= b && j <= a)
+                        std::cout << "*";
+                    else
+                        std::cout << " ";
+                }
+            }
         }
-        std::cout << "\nAccrued leave: " << 2+0.1*hours << " hours\n";
+        else
+        {
+            for (int i = 0; i < 7; i++)
+            {
+                std::cout << "#";
+            }
+        }
+        std::cout << "#";
+        std::cout << "\n";
     }
+    return 0;
 }
