@@ -38,4 +38,9 @@ int main()
         std::cout << "#";
         std::cout << "\n";
     }
+<<<<<<< HEAD
 }
+=======
+    return 0;
+}
+>>>>>>> 908ca40e4707415c509f64108cc9840340abbfc6
