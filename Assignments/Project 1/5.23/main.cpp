@@ -1,51 +1,41 @@
-//
-//  main.cpp
-//  assignment 1
-//  5.23
-//
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
+    int in;
 
-    int a, b;
+    std::cout << "Input the desired height of EggTimer\n";
+    std::cin >> in;
 
-    for (int i = 0; i < 9; i++)
+    for (int r = -1, d1 = 0, d2 = 0; r < in + 1; r++)
     {
         std::cout << "#";
-        if (i != 0 && i != 8)
+        if (r == -1 || r == in)
         {
-            for (int j = 0; j < 7; j++)
+            for (int i = 0; i < in; i++)
             {
-                a = i;
-                b = 7 - i - 1;
-                if (a <= b)
-                {
-                    if (j >= a && j <= b)
-                        std::cout << "*";
-                    else
-                        std::cout << " ";
-                }
-                else
-                {
-                    if (j >= b && j <= a)
-                        std::cout << "*";
-                    else
-                        std::cout << " ";
-                }
+                std::cout << "#";
             }
         }
         else
         {
-            for (int i = 0; i < 7; i++)
+            for (int c = 0; c < in; c++)
             {
-                std::cout << "#";
+
+                d1 = r;
+                d2 = in - r - 1;
+                if (d1 <= d2)
+                {
+                    (c >= d1 && c <= d2) ? std::cout << "*" : std::cout << " ";
+                }
+                else
+                {
+                    (c >= d2 && c <= d1) ? std::cout << "*" : std::cout << " ";
+                }
             }
         }
         std::cout << "#";
         std::cout << "\n";
     }
-    return 0;
 }
